@@ -6,14 +6,14 @@ This Java project implements a parking lot management system that can accommodat
 ## Features
 - Initialize the parking lot with a given number of floors and car spaces per floor.
 - Add vehicle details to the parking lot, including vehicle type, registration number, and color.
-- Remove a vehicle from the parking lot based on the registration number or token ID.
+- Remove a vehicle from the parking lot based on the token ID.
 - Check the availability of vehicle spaces on a specific floor for a given vehicle type.
 - Supports configurable cost strategies for parking fees based on vehicle types and duration.
 
 ## Usage
 1. **Initialization**: Initialize the parking lot with the desired number of floors and car spaces per floor.
 2. **Adding Vehicles**: Add vehicles to the parking lot by providing details such as vehicle type, registration number, and color.
-3. **Removing Vehicles**: Remove vehicles from the parking lot by providing either the registration number or token ID.
+3. **Removing Vehicles**: Remove vehicles from the parking lot by providing token ID.
 4. **Checking Availability**: Check the availability of vehicle spaces on specific floors for different vehicle types.
 5. **Cost Calculation**: The system calculates parking fees based on the configured cost strategy and the duration for which a vehicle is parked.
 
